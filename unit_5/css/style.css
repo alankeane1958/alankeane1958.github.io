@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:800italic);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+body {
+background: url("../images/andy_index.jpg");
+background-size: cover;
+background-color: black;
+}
+h1 {color: #F00B0B; font-family: 'Exo 2', sans-serif; font-size: 80px; font-weight: 800}
+h3 {color: #BD7676; font-family: 'Bitter', serif; font-style: italic; font-size: 30px}
+p {color: #BD7676; font-family: 'Bitter', serif; font-size: 16px; line-height: 34px}
+ul {color: #BD7676; font-family: 'Bitter', serif; font-size: 16px; text-align: center; list-style-position: inside;}
+a {color:; #dd0000;
+text=decoration: none;
+}
+
+#maindivider {
+	width: 50vw;
+	float:right;
+	text-align: center;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	text-align: center;
+}
+
+nav a {
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+
+main {
+	width: 720px;
+}
+
+article {
+	background-color: #E89C6C;
+	padding: 20px; 0;
+}
+
+aside {
+	background-color: #FFC675;
+	width: 320px;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 20px;
+}

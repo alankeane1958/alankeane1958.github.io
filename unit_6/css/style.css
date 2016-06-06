@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:800italic);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background-color: black;
+}
+
+h1 {
+	color: #F00B0B; 
+	font-family: 'Exo 2', sans-serif; 
+	font-size: 80px; 
+	font-weight: 800;
+}
+
+h3 {
+	color: #BD7676; 
+	font-family: 'Bitter', serif; 
+	font-style: italic; 
+	font-size: 30px;
+}
+
+p {
+	color: #BD7676; 
+	font-family: 'Bitter', serif; 
+	font-size: 16px; 
+	line-height: 34px;
+}
+
+ul {
+	color: #BD7676; 
+	font-family: 'Bitter', serif; 
+	font-size: 16px; 
+	text-align: center; 
+	list-style-position: inside;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+
+header {
+    border: 1px black solid;
+    padding: 20px;
+    width:500px;
+    margin:auto;
+}
+
+nav {
+	background-color: #E8C66A;
+	text-align: center;
+}
+
+nav a {
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+
+main {
+	width: 720px;
+}
+
+footer {
+	background-color: #FF957E;
+	padding: 20px;
+}
+
+
+#maindivider {
+	width: 50vw;
+	margin:auto;
+	text-align: center;
+}
+
+#intro{
+	background: url("../images/andy_index.jpg");
+	background-size: cover;
+}
+
+#thesweet img{
+	width:22.5%;
+	margin:1%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
